@@ -494,18 +494,58 @@ table {
   border-spacing: 0;
 }
 
+.wrapper {
+  width: 210mm;
+  height: 290mm;
+  margin: auto;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d6b971+0,cf9b43+100 */
+  background: #d6b971;
+  /* Old browsers */
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #d6b971), color-stop(100%, #cf9b43));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #d6b971 0%, #cf9b43 100%);
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 12+ */
+  /* IE10+ */
+  background: -webkit-radial-gradient(center, ellipse, #d6b971 0%, #cf9b43 100%);
+  background: radial-gradient(ellipse at center, #d6b971 0%, #cf9b43 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6b971', endColorstr='#cf9b43',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+
 body {
-  background: #E5D5B9;
+  background: #ffffff;
 }
 
-.footer {
-  background: #93756E;
-  height: 100px;
+.title {
+  padding-top: 50px;
   width: 100%;
+  text-align: center;
+  font-size: 100px;
+  color: #C2574D;
+  font-family: 'Playball', cursive;
 }
 
-.header {
-  background: #261218;
-  height: 100px;
+.name-area {
   width: 100%;
+  text-align: center;
+}
+
+.image-area {
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+.image-area img {
+  -webkit-clip-path: circle(100px at center);
+          clip-path: circle(100px at center);
+  width: 400px;
+}
+
+.text-area {
+  background-color: #612424;
+  height: 100px;
 }
